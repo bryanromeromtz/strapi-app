@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visitantes",
+  "info": {
+    "singularName": "visitante",
+    "pluralName": "visitantes",
+    "displayName": "Visitantes"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pagina": {
+      "type": "string",
+      "required": true
+    },
+    "direccion_ip": {
+      "type": "string"
+    },
+    "dispositivo": {
+      "type": "string"
+    },
+    "ubicacion": {
+      "type": "string"
+    }
+  }
+}
